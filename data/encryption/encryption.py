@@ -4,11 +4,16 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
+#
+passwords = []
+#
+
 def create_private_key():
     nummer = random.randint(9999,999999)
-    random_string = Fernet.generate_key().decode()
-    random_string_2 = Fernet.generate_key().decode()
+    random_string,random_string_2 = Fernet.generate_key(),Fernet.generate_key()
+    random_string,random_string_2 = random_string.decode(),random_string_2.decode()
     password = ("%s%s%s"%(random_string,random_string_2,nummer)).encode()
+    passwords.append(password.decode())
     salt = os.urandom(999999)
     kdf = PBKDF2HMAC(
         algorithm=hashes.SHA256(),
@@ -21,5 +26,3 @@ def create_private_key():
     return (private_key,private_f)
 
 (private_key,private_f) = create_private_key()
-print(len(private_key))
-print(private_key)
