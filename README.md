@@ -11,3 +11,7 @@ With the Python-Modules cryptography and base64 the script is creating a private
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 The Algorithm = hashes.SHA256
+
+Here is an example Key: 
+        
+        lFxFsS00nrSv9PsW-_0tbWkh9LaHL-gVa4NHKNTxPKY=
