@@ -13,5 +13,5 @@ With the Python-Modules cryptography and base64 the script is creating a private
 The Algorithm = hashes.SHA256
 
 Here is an example Private-Key: 
-        
-        lFxFsS00nrSv9PsW-_0tbWkh9LaHL-gVa4NHKNTxPKY=
+
+    lFxFsS00nrSv9PsW-_0tbWkh9LaHL-gVa4NHKNTxPKY=
