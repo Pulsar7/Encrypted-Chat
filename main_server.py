@@ -15,14 +15,19 @@ class SERVER:
         s.listen(int(self.max_connections))
         return s
 
+    def handle_client(self,client,addr):
+        pass
+
     def home(self):
         try:
             server_sock = self.create_socket()
+            self.server_sock = server_sock
         except Exception as e:
             pass
         while True:
             (client,addr) = server_sock.accept()
-
+            handle_client_thread = threading.Thread(target=self.handle_client,args=(client,addr))
+            handle_client_thread.start()
 #
 users = {}
 blacklist = {}
