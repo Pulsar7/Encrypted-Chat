@@ -1,4 +1,3 @@
-from cryptography.fernet import Fernet
 import base64,random,os
 from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
