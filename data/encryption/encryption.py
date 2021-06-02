@@ -25,6 +25,3 @@ def create_private_key():
     private_key = base64.urlsafe_b64encode(kdf.derive(password))
     private_f = Fernet(private_key)
     return (private_key,private_f,password)
-
-(private_key,private_f,password) = create_private_key()
-print(password)
