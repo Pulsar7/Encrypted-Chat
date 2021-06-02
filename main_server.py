@@ -1,6 +1,7 @@
 import socket,os,sys,threading
 from time import sleep
 from data.config import config
+from data.encryption import encryption
 
 class SERVER:
     def __init__(self):
