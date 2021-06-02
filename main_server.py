@@ -5,7 +5,7 @@ users = {}
 
 class SERVER:
     def __init__(self):
-        self.server_addr = ("localhost",1337)
+        self.server_addr = ("0.0.0.0",1337)
 
     def run(self):
         pass
