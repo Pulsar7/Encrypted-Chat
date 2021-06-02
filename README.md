@@ -10,7 +10,7 @@ With the Python-Modules cryptography and base64 the script is creating a private
     from cryptography.hazmat.primitives import hashes
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-The Algorithm = hashes.SHA256
+Algorithm => hashes.SHA256
 
 Private-Key example: 
 
