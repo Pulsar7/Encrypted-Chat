@@ -12,10 +12,10 @@ With the Python-Modules cryptography and base64 the script is creating a private
 
 The Algorithm = hashes.SHA256
 
-Here is an example Private-Key: 
+Private-Key example: 
 
     lFxFsS00nrSv9PsW-_0tbWkh9LaHL-gVa4NHKNTxPKY=
     
-Here is an example of a generated Password:
+Generated Password example:
 
     _uoVrs70WeixRm2dRaHTBU4FIAUhNf0yjwpnIWyhxTc=4N5RTwmlFV0838p4JMI5FPiolQo9nbthywuCDo-5i9Y=545434
