@@ -1,6 +1,7 @@
 # Encrypted-Chat
 
 A multithreading Chat, with 2 randomly generated private keys and one public key.
+The Client-GUI Application runs a module called *tkinter*
 
 # Encryption
 
