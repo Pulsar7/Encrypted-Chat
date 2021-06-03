@@ -1,5 +1,7 @@
 # Encrypted-Chat
 
+A multithreading Chat, with 2 randomly generated private keys and one public key.
+
 # Encryption
 
 With the Python-Modules cryptography and base64 the script is creating a private key:
